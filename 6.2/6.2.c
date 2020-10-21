@@ -11,7 +11,7 @@ typedef int Position;
 typedef struct LNode *List;
 struct LNode {
     ElementType Data[MAXSIZE];
-    Position Last; /* 保存线性表中最后一个元素的位置 */
+    Position Last; 
 };
 各个操作函数的定义为：
 
