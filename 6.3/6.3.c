@@ -13,6 +13,11 @@ struct LNode {
 typedef PtrToLNode List;
 L是给定单链表，函数Length要返回链式表的长度。
 
+输入样例：
+1 3 4 5 2 -1
+输出样例：
+5
+
 裁判测试程序样例：
 */
 
