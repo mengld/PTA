@@ -1,15 +1,16 @@
 /*
-本题要求实现一个函数，将给定的单链表逆转
+本题要求实现一个函数，将给定的单链表逆转。
+
 函数接口定义：
 List Reverse( List L );
 其中List结构定义如下：
 
 typedef struct Node *PtrToNode;
 struct Node {
-    ElementType Data; /* 存储结点数据 */
-    PtrToNode   Next; /* 指向下一个结点的指针 */
+    ElementType Data; 
+    PtrToNode   Next; 
 };
-typedef PtrToNode List; /* 定义单链表类型 */
+typedef PtrToNode List; 
 L是给定单链表，函数Reverse要返回被逆转后的链表。
 
 裁判测试程序样例：
@@ -24,8 +25,8 @@ struct Node {
 };
 typedef PtrToNode List;
 
-List Read(); /* 细节在此不表 */
-void Print( List L ); /* 细节在此不表 */
+List Read(); 
+void Print( List L ); 
 
 List Reverse( List L );
 
@@ -39,7 +40,13 @@ int main()
     return 0;
 }
 
-/* 你的代码将被嵌在这里 */
+
+输入样例：
+5
+1 3 4 5 2
+输出样例：
+1
+2 5 4 3 1
 */
 
 List Reverse(List L) {
