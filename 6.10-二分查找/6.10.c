@@ -9,7 +9,7 @@ typedef int Position;
 typedef struct LNode *List;
 struct LNode {
     ElementType Data[MAXSIZE];
-    Position Last; /* 保存线性表中最后一个元素的位置 */
+    Position Last; 
 };
 L是用户传入的一个线性表，其中ElementType元素可以通过>、==、<进行比较，并且题目保证传入的数据是递增有序的。函数BinarySearch要查找X在Data中的位置，即数组下标（注意：元素从下标1开始存储）。找到则返回下标，否则返回一个特殊的失败标记NotFound。
 
